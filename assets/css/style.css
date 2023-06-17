@@ -11,15 +11,19 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  position: relative;
-  background: transparent;
+  height:100%;
+/*   //position: relative; */
+/*   background: transparent; */
+  background-position: center;
+  background-image: url("6114100.jpg");
+  
 }
 
 body::before {
   content: "";
   position: fixed;
   background: #010e1b;
-  background-size: cover;
+/*   background-size: cover; */
   left: 0;
   right: 0;
   top: 0;
