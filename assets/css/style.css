@@ -30,6 +30,13 @@ body::before {
   height: 100vh;
 }
 
+.multicolortext {
+  background-image: linear-gradient(to left, rgb(230, 149, 230), rgb(215, 189, 234), rgb(171, 208, 171), rgb(227, 162, 227), rgb(213, 213, 139), rgb(197, 140, 158), rgb(179, 227, 221));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 /* @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
